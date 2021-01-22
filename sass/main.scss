@@ -1,0 +1,53 @@
+@import"./container";
+@import"./main-nav";
+@import"./hero";
+@import"./about";
+@import"./activity";
+@import"./command-all";
+@import"./logo";
+@import"./footer/footer";
+@import"./footer/nav-footer";
+@import"./footer/all-links-footer";
+@import"./footer/form-footer";
+@import"./forms/backdrop";
+@import"./forms/forms";
+
+@import"./portfolio/link-all";
+@import"./portfolio/projects";
+
+
+header a {
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.icon::before{
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: 70px, 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+}
+
+h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;  
+}

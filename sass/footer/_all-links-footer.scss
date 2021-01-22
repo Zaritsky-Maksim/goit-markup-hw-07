@@ -1,0 +1,37 @@
+.all-links-footer{
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-left: 70px;
+}
+
+.footer-link {
+    margin-top: 75px;
+}
+
+.footer-link span{
+    display: inline-block;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.social-footer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: #ffffff;
+    background-color: #44454E;
+    border-radius: 50%;
+}
+
+.social-footer:hover {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+.logo-footer {
+    fill:#ffffff;
+}

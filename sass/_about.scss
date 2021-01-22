@@ -1,0 +1,73 @@
+.about {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 94px;   
+}
+
+.about .skills + .skills {
+    margin-left: 30px;
+}
+
+.about p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 270px;
+    color: #757575;
+}
+
+.icon-antenna::before{
+    background-image: url(../img/antenna.png);
+}
+
+.icon-clock::before{
+    background-image: url(../img/clock.png);
+}
+
+.icon-diagram::before{
+    background-image: url(../img/diagram.png);
+}
+
+.icon-astronaut::before{
+    background-image: url(../img/astronaut.png);
+}
+
+.icon-antenna::before{
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: 70px, 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    background-image: url(../img/antenna.png);
+}
+.icon-clock::before{
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: 70px, 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    background-image: url(../img/clock.png);
+}
+.icon-diagram::before{
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: 70px, 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    background-image: url(../img/diagram.png);
+}
+.icon-astronaut::before{
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: 70px, 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    background-image: url(../img/astronaut.png);
+}

@@ -1,0 +1,77 @@
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+
+.pagination{
+    display: flex;
+    margin-left: 93px;
+}
+
+.pagination .item + .item{
+    margin-left: 50px;
+}
+
+.pagination a:hover{
+    color:#2196F3;
+}
+
+#portfolio-studio  a{
+    border-bottom: 3px solid  #1a73e8;
+    color: #1a73e8;
+}
+
+.pagination a{
+    color:#212121;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.aside {
+    display: inline-flex;
+    margin-left: 305px;
+}
+
+.aside .item + .item{
+    margin-left: 50px;
+}
+.aside a{
+    color: #757575;
+}
+.aside a:hover{
+    color:#2196F3;
+}
+
+li.envelope {
+    margin-right: 30px;
+}
+
+li.envelope::before{
+    display: inline-flex;
+    content: "";
+    text-align: center;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-image: url(../img/envelope.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+li.smartphone::before{
+    display: inline-flex;
+    content: "";
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-image: url(../img/smartphone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}

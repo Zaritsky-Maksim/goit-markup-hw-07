@@ -1,0 +1,29 @@
+.link-all{
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+}
+
+.link a{
+    background-color:  #F5F4FA;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 4px;
+}
+
+.link-all a:hover{
+    background-color: #2196F3;
+    color: #ffffff;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 4px;
+}
+
+.link-all .link + .link{
+    margin-left: 8px;
+}
+
+.link-all a{
+    color: black;
+    text-decoration: none;
+}
