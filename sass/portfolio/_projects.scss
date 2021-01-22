@@ -9,8 +9,10 @@
     margin-right: 30px;
     margin-bottom: 30px;
     overflow: hidden;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
-
 
 .content:hover {
     cursor: pointer;

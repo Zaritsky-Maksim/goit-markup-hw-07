@@ -42,6 +42,7 @@
 .aside .item + .item{
     margin-left: 50px;
 }
+
 .aside a{
     color: #757575;
 }
@@ -49,29 +50,28 @@
     color:#2196F3;
 }
 
-li.envelope {
-    margin-right: 30px;
-}
 
-li.envelope::before{
+.envelope q::before{
     display: inline-flex;
     content: "";
-    text-align: center;
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    background-image: url(../img/envelope.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    fill: #757575;
 }
 
-li.smartphone::before{
+.envelope a {
+    margin-right: 30px;
+}
+
+.aside a:hover svg{
+    fill: #2196F3;
+}
+
+.smartphone svg::before{
     display: inline-flex;
     content: "";
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    background-image: url(../img/smartphone.png);
-    background-position: center;
-    background-repeat: no-repeat;
 }

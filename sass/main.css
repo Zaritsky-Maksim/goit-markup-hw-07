@@ -69,25 +69,26 @@
   color: #2196F3;
 }
 
-li.envelope {
-  margin-right: 30px;
-}
-
-li.envelope::before {
+.envelope q::before {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   content: "";
-  text-align: center;
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  background-image: url(../img/envelope.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  fill: #757575;
 }
 
-li.smartphone::before {
+.envelope a {
+  margin-right: 30px;
+}
+
+.aside a:hover svg {
+  fill: #2196F3;
+}
+
+.smartphone svg::before {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -95,9 +96,6 @@ li.smartphone::before {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  background-image: url(../img/smartphone.png);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .hero {
@@ -790,6 +788,10 @@ input, textarea {
   margin-right: 30px;
   margin-bottom: 30px;
   overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .content:hover {
@@ -888,13 +890,9 @@ ul {
 }
 
 h3 {
-  margin-top: 0px;
+  margin: 0px;
+  margin-top: 30px;
   margin-bottom: 10px;
-}
-
-h3 {
-  margin-top: 20px;
-  margin-left: 24px;
 }
 
 .icon::before {
